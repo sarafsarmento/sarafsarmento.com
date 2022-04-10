@@ -1,0 +1,112 @@
+body {
+    background-color: #fff5da;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  h1 {
+    color: #000000;
+    font-family: "DM Serif Text", serif;
+    font-weight: 600;
+  }
+  
+  h3 {
+    text-align: center;
+  }
+  
+  p {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  a {
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: #000000;
+    border-bottom: 3px solid #000000;
+    text-decoration: none;
+  }
+  
+  .menu {
+    background-color: transparent;
+    color: #3d3b3c;
+    border-color: #3d3b3c;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  .menu2 {
+    background-color: #ffffff;
+    color: #3d3b3c;
+    border-color: #3d3b3c;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  .main-container {
+    margin: 100px 50px auto;
+  }
+  
+  .btn {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .img {
+    margin-top: -30px;
+  }
+  
+  .site-title {
+    font-family: "DM Serif Text", serif;
+    font-size: 30px;
+  }
+  
+  .site-title:hover {
+    color: #cea5ee;
+    text-decoration: none;
+    border-bottom: none;
+  }
+  
+  .gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%;
+  }
+  .gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+  }
+  .gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  
+  @media (max-width: 450px) {
+    .gallery {
+      -webkit-column-count: 1;
+      -moz-column-count: 1;
+      column-count: 1;
+      -webkit-column-width: 100%;
+      -moz-column-width: 100%;
+      column-width: 100%;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .btn.filter {
+      padding-left: 1.1rem;
+      padding-right: 1.1rem;
+    }
+  }
